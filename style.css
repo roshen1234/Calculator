@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,100&family=Roboto:wght@300&display=swap');
+html,body{
+    height:100%;
+    width:100%;
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    box-shadow: -5px -6px 15px #000;
+    border-radius: 50%;
+}
+.button:active{
+  background-color: #000;
+  transform: translate(2px,2px);
+}
+.row{
+    margin: 8px 0px;
+}
+.input{
+    font-size: 20px;
+    margin: 0;
+    padding: 7px 19px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background: transparent;
+    text-align: right;
+    cursor: pointer;
+}
+body{
+    background:linear-gradient(45deg,#0a0a0a,#3a4452)  ;
+}
+.container{
+    width: 310px;
+  margin: auto;
+    border: 2px solid rgb(116,114,114); 
+     box-shadow: 0 0 15px #000;
+     border-radius: 15px;
+}
+.opr{
+    background-color: #fe9505;
+}
+.opr:active{
+    background-color: #fe9605b8;
+    transform: translate(2px,2px);
+}
